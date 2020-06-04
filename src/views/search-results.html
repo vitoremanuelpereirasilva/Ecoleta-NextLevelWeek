@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style/main.css">
+  <link rel="stylesheet" href="/style/searchResults.css">
+  <link rel="stylesheet" href="/style/responsive.css">
+  <title>Resultado da pesquisa</title>
+</head>
+<body>
+  <div id="page-searchResults">
+    
+    {% include "partials/header.html" %}
+
+    <main>
+      <h4>
+        <strong>2 pontos</strong> encontrados
+      </h4>
+      <div class="cards">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1528323273322-d81458248d40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=801&q=80" alt="colectoria">
+          <h1>Colectoria</h1>
+          <h3>Resíduos Eletrônicos, Lâmpadas</h3>
+          <p>
+            Cidade, Estado <br/>
+            Endereco, bairro <br/> 
+            numero
+          </p>
+        </div>
+
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1516992654410-9309d4587e94?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="colectoria">
+          <h1>Papersider</h1>
+          <h3>Pápeis e Papelão</h3>
+          <p>
+            Cidade, Estado <br/>
+            Endereco, bairro <br/>
+            numero
+          </p>
+        </div>
+      </div>
+    </main>
+
+  </div>
+</body>
+</html>
